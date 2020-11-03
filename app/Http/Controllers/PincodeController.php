@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class PincodeController extends Controller
 {
+
+    private $user;
+    public function __construct(){
+     $this->user=new User();
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -25,8 +31,11 @@ class PincodeController extends Controller
     public function create()
     {
         //get user id
+        $user_id=$this->user()->id;
 
-        //generate unique code 
+        //generate unique code
+        
+        
 
         //save code 
     }
@@ -61,6 +70,19 @@ class PincodeController extends Controller
               return false;
             }
 
+        }
+
+
+        function getRandomString($n) {
+            $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $randomString = '';
+          
+            for ($i = 0; $i < $n; $i++) {
+                $index = rand(0, strlen($characters) - 1);
+                $randomString .= $characters[$index];
+            }
+          
+            return $randomString;
         }
 
     /**
