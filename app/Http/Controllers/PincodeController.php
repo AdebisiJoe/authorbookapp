@@ -28,13 +28,22 @@ class PincodeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $numberofcode)
     {
         //get user id
         $user_id=$this->user()->id;
 
         //generate unique code
         
+
+        $string=$this->getRandomString(9);
+   
+
+        if ($this->exists_in_db($string)){
+           # code...
+         $string=$this->generatepin();
+    
+       }
         
 
         //save code 
