@@ -1,0 +1,9 @@
+[30-Jan-2019 14:53:34 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:53:41 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:53:42 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:53:42 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:53:43 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:55:07 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:55:07 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:55:08 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203
+[30-Jan-2019 14:55:08 UTC] PHP Fatal error:  Can't use method return value in write context in /home2/kavitdig/public_html/rentnaija/app/Http/Controllers/PropertyController.php on line 203

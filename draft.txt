@@ -1,0 +1,10 @@
+  public function findProperty($type,$state,$city,$price)
+    {   $hotel = 'hotel';$hostel = 'hostel';
+        if($type==$hotel){
+            echo $type;
+            $properties = Property::where(['type'=>$type,'state'=>$state,'city'=>$city,'price'=>$price]);
+        }
+        if($type==$hostel){
+            echo $type;
+            $properties = Property::where(['type'=>$type,'state'=>$state,'city'=>$city,'price'=>$price]);
+        }
